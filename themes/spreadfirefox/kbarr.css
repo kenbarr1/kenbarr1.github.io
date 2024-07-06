@@ -1,0 +1,205 @@
+/* ---------------------------------------------------------------------- */
+/* Heading Selectors                                                      */
+/* ---------------------------------------------------------------------- */
+
+#milproj img.left {
+        float:left;
+}
+
+#milproj img.right {
+ float:right;
+}
+
+.kb_section {
+ padding-left:3px;
+}
+
+
+div.spacer{
+clear:both;
+}  
+
+
+#milproj H1{
+font-size:125%;
+}
+
+#milproj H3{
+  font-weight : bold;
+    font-size: 200%;
+    border-top-color : Black;
+    border-top-style : solid;
+    border-top-width : 1px;
+    border-left-color : Black;
+    border-left-style : solid;
+    border-left-width : 1px;
+    padding-left : 3px;
+    font-family : Arial, Helvetica, sans-serif;
+/*    margin-right : auto;
+    margin-left:1px; */
+    margin-top:30px;
+    margin-bottom:10px;
+    padding-top:3px;
+}
+
+
+
+#kb_endBar {
+
+	font-weight : bold;
+	font-size : 12px;
+	margin-right : auto;
+	border-bottom-color : Black;
+	border-bottom-style : solid;
+	border-bottom-width : 1px;
+	border-right-color : Black;
+	border-right-style : solid;
+	border-right-width : 1px;
+	padding-left : 3px;
+	color : Black;
+	font-family : Arial, Helvetica, sans-serif;
+
+}
+
+
+#kbarr H1 
+{
+  font-weight    : bold;
+  font-family    : sans-serif;
+  text-align     : left;
+  margin         : 0; 
+  margin-bottom  : 10px;
+  padding        : 0;
+  color          : #214a7e;
+}
+
+#kbarr H2 
+{
+  font-weight   : bold;
+  font-variant  : small-caps;
+  font-family   : sans-serif;
+  border-bottom : 1px solid gray; 
+  margin-top    : 25px; 
+  margin-bottom : 20px; 
+  padding       : 0;
+  color         : #214a7e;
+}
+
+/*H2.first
+{ border-top : 1px solid gray; 
+  padding-top : 20px;
+}*/
+
+#kbarr H3 
+{
+  font-weight   : bold;
+  font-variant  : small-caps;
+  font-family   : sans-serif;
+  margin-bottom : 10px; 
+  margin-top    : 25px; 
+  padding       : 0;
+  color         : #214a7e;
+}
+
+/* ---------------------------------------------------------------------- */
+/* Header                                                                 */
+/* ---------------------------------------------------------------------- */
+
+#kb_header
+{
+  position : relative;
+  padding-right  : 80px;
+
+}
+
+#kb_header IMG
+{
+  border        : 2px solid black;
+  float         : left;
+  margin-right  : 25px; 
+  margin-bottom : 40px;
+  padding: 0px;
+
+}
+
+/* ---------------------------------------------------------------------- */
+/* Content Formatting                                                     */
+/* ---------------------------------------------------------------------- */
+
+#kb_content
+{
+  clear      : left;
+  margin-top : 0px;
+}
+
+#kbarr P
+{
+  margin        : 0;
+  margin-top    : 10px;
+  margin-bottom : 10px;
+}
+
+#kbarr UL
+{
+  padding      : 0;
+  margin       : 0;
+  margin-left  : 30px;
+}
+
+#kbarr UL LI
+{
+  list-style   : square;
+  margin-top   : 10px;
+}
+
+
+#kbarr .copyright{
+
+  color:#555555;
+  font-size:0.8em;
+  padding-left:10ex;
+  padding-right:10ex;
+}
+
+
+
+/* somewhere this is getting set to give images a right-left padding */
+img {
+  padding:0px;
+  text-align:center;
+}
+
+
+/* intro page */
+#kbarr #logo {padding-top:100px; left:100px;}
+#kbarr #image {z-index:1; position:relative; bottom:0; width:620px;height:162px; }
+#kbarr #work {position:absolute; bottom:0px; left:20px; font: bold 50px monospace; z-index:2; }
+#kbarr #play {position:absolute; bottom:0px; right:20px; font: bold 50px "comic sans ms", sans-serif; z-index:2; }
+#kbarr #summary {z-index:1; width:400px; text-align:left; font-family:sans-serif; color:gray; padding-top:2em; margin:0 auto;}
+
+#kbarr #summary a {color:#ff0000; text-decoration:underline;}
+#kbarr #image a:link {color:#ffffff; background-color:transparent;}
+#kbarr #image  a:visited {color:#ffffff; background-color:transparent;}
+#kbarr #image  a:hover {color:#ffff00; background-color:transparent;}
+#kbarr #image   a:active {color:#ffffff; background-color:transparent;}
+#kbarr #image  a { text-decoration: none  }
+
+#kb_content img {
+/*  float:none;  */
+
+}
+
+#kb_image {z-index:1; position:relative; bottom:0; width:620px; height:162px; margin:auto;}
+#kb_play {position:absolute; bottom:0px; right:20px; font: bold 50px "comic sans ms", sans-serif; z-index:2; }
+#kb_work {position:absolute; bottom:0px; left:20px; font: bold 50px monospace; z-index:2; }
+#kb_summary {z-index:1; width:400px; text-align:left; font-family:sans-serif; color:gray; padding-top:2em; margin:0 auto;}
+
+#kb_image a:link {color:#ffffff; background-color:transparent;}
+#kb_image  a:visited {color:#ffffff; background-color:transparent;}
+#kb_image  a:hover {color:#ffff00; background-color:transparent;}
+#kb_image  a:active {color:#ffffff; background-color:transparent;}
+#kb_image  a { text-decoration: none;  }
+
+
+img.left {float:left; margin-right:2ex;}
+img.right {float:right; margin-left:2ex;}
