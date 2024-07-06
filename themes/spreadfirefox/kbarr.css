@@ -19,6 +19,7 @@ div.spacer{
 clear:both;
 }  
 
+br.clear {  clear: both; } 
 
 #milproj H1{
 font-size:125%;
